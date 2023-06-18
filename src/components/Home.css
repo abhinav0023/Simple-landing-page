@@ -5,6 +5,10 @@
   margin-top: 3em;
 }
 
+span{
+    color: blue;
+}
+
 .home__Left {
   width: 50%;
   height: 60vh;
