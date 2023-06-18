@@ -31,7 +31,7 @@ span{
   width: 50%;
   height: 60vh;
 
-  background-image: url("/public/images/home_img.png");
+  background-image: url("../images/home_img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +69,7 @@ span{
   .home__Right {
     width: 100vw;
     height: 60vh;
-    background-image: url("/public/images/home_img.png");
+    background-image: url("../images/home_img.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
