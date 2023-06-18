@@ -7,8 +7,8 @@
   padding: 0px;
   width: 100vw;
   height: 50px;
-  background: #f3efef;
-  box-shadow: 0 0 0 1px rgb(220, 220, 220);
+  background: #fff;
+  border-bottom: 3px solid rgb(228, 226, 226);
   font-family: "Tilt Prism", cursive;
   font-size: 1.2rem;
   justify-content: space-between;
@@ -39,8 +39,8 @@
     padding: 0px;
     width: 100vw;
     height: 50px;
-    background: #f3efef;
-    box-shadow: 0 0 0 1px rgb(220, 220, 220);
+    background: #fff;
+    border-bottom: 2px solid rgb(194, 191, 191);
     font-family: "Tilt Prism", cursive;
     font-size: 1.2rem;
     justify-content: space-between;
