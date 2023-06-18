@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+
+/* for basic laptop screen size  */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  width: 100vw;
+  height: 50px;
+  background: #f3efef;
+  box-shadow: 0 0 0 1px rgb(220, 220, 220);
+  font-family: "Tilt Prism", cursive;
+  font-size: 1.2rem;
+  justify-content: space-between;
+}
+
+.header__Name {
+  margin-left: 10px;
+}
+
+.header__Left {
+  width: 80%;
+}
+
+.header__Right {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  width: 20%;
+  justify-content: space-evenly;
+}
+
+/* now this is for mobile screens */
+
+@media (max-width: 626px) {
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    width: 100vw;
+    height: 50px;
+    background: #f3efef;
+    box-shadow: 0 0 0 1px rgb(220, 220, 220);
+    font-family: "Tilt Prism", cursive;
+    font-size: 1.2rem;
+    justify-content: space-between;
+  }
+
+  .header__Name {
+    margin-left: 10px;
+  }
+
+  .header__Left {
+    width: 50%;
+  }
+
+  .header__Right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+}
